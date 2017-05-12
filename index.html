@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Lesson 11 "Transition property"</title>
+    <title>Lesson 12 "Modal Window without JS"</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,8 +21,37 @@
     <![endif]-->
   </head>
   <body>
-    
+  <div class="container-fluid">
+    <header class="header-main">
+      <div class="container">
+        <div class="header-main-top">
+          <div class="row">
+            <h1 class="col-lg-6 col-lg-offset-3 col-sm-12 col-sm-offset-0">Мой новый сайт</h1>
+          </div>
+          <div class="row">
+            <section class="text col-lg-6 col-lg-offset-3 col-sm-12 col-sm-offset-0">
+              <nav>
+                <ul>
+                  <li><a href="#popup-1">first</a></li>
+                  <li><a href="#">second</a></li>
+                  <li><a href="#">third</a></li>
+                  <li><a href="#">fourth</a></li>
+                </ul>
+              </nav>
+              <a href="#close" id="popup-1" class="wrap"></a>
+                <div class="popup-in">
+                  <a href="#close" class="popup-in-close">&times</a>
+                </div>
+              
+            </section>
+          </div>
 
+        </div>
+        
+      </div>
+    </header>
+  </div>
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

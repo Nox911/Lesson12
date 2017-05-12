@@ -1,0 +1,53 @@
+h1 {
+  text-align: center;
+}
+
+.text {
+  position: relative;
+  height: 100vh;
+  padding-top: 40px;
+  text-align: center;
+  background-color: rgba(112, 112, 112, 0.9);
+}
+.text li {
+  display: inline-block;
+  padding: 0 30px;
+  text-align: center;
+}
+.text li a {
+  color: #fff;
+}
+.text .popup-in {
+  display: none;
+  width: 30vw;
+  height: 50vh;
+  background-color: #fff;
+  position: fixed;
+  top: 20%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.text .popup-in-close {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  font-size: 30px;
+}
+.text .wrap {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.1);
+  top: 0;
+  left: 0;
+}
+.text .wrap:target {
+  display: block;
+}
+.text .wrap:target + .popup-in {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */
